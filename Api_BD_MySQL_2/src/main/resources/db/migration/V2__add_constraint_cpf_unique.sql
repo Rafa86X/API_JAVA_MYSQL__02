@@ -1,0 +1,1 @@
+alter table sellers add constraint UNiq_person_cpf UNIQUE (cpf)

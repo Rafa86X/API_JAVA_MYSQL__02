@@ -1,0 +1,15 @@
+CREATE TABLE `direto_da_fazenda`.`sellers` (
+  `id` BIGINT NOT NULL AUTO_INCREMENT,
+  `cpf` VARCHAR(11) NOT NULL,
+  `name` VARCHAR(45) NOT NULL,
+  `last_name` VARCHAR(45) NOT NULL,
+  `date_birth` VARCHAR(45) NOT NULL,
+  `telephone` VARCHAR(11) NOT NULL,
+  `cep` VARCHAR(8) NOT NULL,
+  `city` VARCHAR(45) NOT NULL,
+  `neighborhood` VARCHAR(45) NOT NULL,
+  `street` VARCHAR(45) NOT NULL,
+  `number` VARCHAR(12) NOT NULL,
+  `complement` VARCHAR(45) NULL,
+  `active` TINYINT NULL,
+  PRIMARY KEY (`id`, `cpf`));
