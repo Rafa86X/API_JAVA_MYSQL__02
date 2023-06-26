@@ -3,14 +3,14 @@
 ## Status: Concluído
 
 ### Funcionamento:
-<p>1 - A api implementa CRUD completo para 4 tabelas em um banco de dados MySQL;
-<p>2 - As tabelas do banco de dados são: customers, product, sales, seller;
-<p>3 - Os endpoints de interação são: 
-               GET http://localhost:8080/---TABELAAQUI---
-               GET http://localhost:8080/---TABELAAQUI---/"numero de um id"
-               POST http://localhost:8080/---TABELAAQUI--- {Dados em json}
-               PUT http://localhost:8080/---TABELAAQUI--- {Dados em json}
-               DELETE http://localhost:8080/---TABELAAQUI---/"numero de um id"
+<p>1 - A api implementa CRUD completo para 4 tabelas em um banco de dados MySQL;</p>
+<p>2 - As tabelas do banco de dados são: customers, product, sales, seller; </p>
+<p>3 - Os endpoints de interação são: </p>
+              <p> GET http://localhost:8080/---TABELAAQUI---</p>
+              <p> GET http://localhost:8080/---TABELAAQUI---/"numero de um id"</p>
+              <p> POST http://localhost:8080/---TABELAAQUI--- {Dados em json}</p>
+              <p> PUT http://localhost:8080/---TABELAAQUI--- {Dados em json}</p>
+              <p> DELETE http://localhost:8080/---TABELAAQUI---/"numero de um id"</p>
                
 
 ### Observação:
